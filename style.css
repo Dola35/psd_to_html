@@ -1,52 +1,52 @@
 .logo { 
-          display: flex;
-          color: rgba(0, 255, 255, 0.697);
+    display: flex;
+    color: rgba(0, 255, 255, 0.697);
 
 }
 .logo img{
-    height: 30px;
-    padding-right: 5px;
-    padding: 20px 5px;
-    
+height: 30px;
+padding-right: 5px;
+padding: 20px 5px;
+
 }
 .nav-container{
-                   display: flex;
-                   justify-content: space-between;
-                   padding: 10px 250px;
-                   
+             display: flex;
+             justify-content: space-between;
+             padding: 10px 250px;
+             
 }
 li {
-    display: inline-block;
-    padding: 10px ;
-    text-transform: uppercase;
-    
+display: inline-block;
+padding: 10px ;
+text-transform: uppercase;
+
 }
 ul {
-    list-style-type: none;
-    
+list-style-type: none;
+
 }
 a {
-    list-style: none;
-    text-decoration: none;
-    color: aliceblue;
+list-style: none;
+text-decoration: none;
+color: aliceblue;
 }
 .head-content {
-    width: 50%;
-    margin: 200px auto;
-    text-align: center;
-    color: aliceblue;
+width: 50%;
+margin: 200px auto;
+text-align: center;
+color: aliceblue;
 }
 span {
-        width: 35px;
-        height: 3px;
-        background-color: rgba(0, 255, 255, 0.418);
-        display: block;
-        display: inline-block;
+  width: 35px;
+  height: 3px;
+  background-color: rgba(0, 255, 255, 0.418);
+  display: block;
+  display: inline-block;
 }
 .header {
-         background-image: url(./assets/bgk-header.png);
-         height: 100vh;
-         background-size: cover;
-         background-repeat:no-repeat;
-       
+   background-image: url(./assets/bgk-header.png);
+   height: 100vh;
+   background-size: cover;
+   background-repeat:no-repeat;
+ 
 }
