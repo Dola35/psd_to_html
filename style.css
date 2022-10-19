@@ -41,14 +41,41 @@ span {
   display: inline-block;
 }
 .header {
+
   background-image: url(./assets/bgk-header.png);
   /*height: 100vh;*/
   background-size: cover;
   background-repeat: no-repeat;
   size: 100%;
+
+   background-image: url(./assets/bgk-header.png);
+   height: 100vh;
+   background-size: cover;
+   background-repeat:no-repeat;
+   size: 100%;
+
 }
 
 body,
 footer {
   font-family: Roboto, Helvetica;
 }
+
+
+.Watch-our-Story {
+  Display:flex;
+  background-image: url(./assets/bgk-middle.png);
+  height: 50vh;
+  background-size: cover;
+  background-repeat: no-repeat;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+p.Watch-our-Story {
+  text-transform: uppercase;
+  /*text-align: flex-end;
+  justify-content: flex-start;*/
+}
+
