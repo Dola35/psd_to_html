@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Hammersmith+One&family=Playfair+Display:wght@400;700&family=Roboto:wght@400;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Hammersmith+One&family=Playfair+Display:wght@400;700&family=Roboto:wght@100;300;400;700&display=swap");
 
 .logo {
   display: flex;
@@ -21,6 +21,7 @@ li {
 }
 ul {
   list-style-type: none;
+  font-weight: bold;
 }
 a {
   list-style: none;
@@ -32,6 +33,16 @@ a {
   margin: 200px auto;
   text-align: center;
   color: aliceblue;
+}
+.Playfair {
+  font-family: "Playfair Display";
+}
+.HammersmithOne {
+  font-family: "Hammersmith One";
+  text-transform: uppercase;
+}
+#Learn-more {
+  color: rgba(0, 255, 255, 0.697);
 }
 span {
   width: 35px;
@@ -72,7 +83,6 @@ footer {
 h2.Expertise-title {
   font-family: "Playfair Display", Helvetica, sans-serif;
   font-size: 1.5em;
-  color: black;
   text-align: center;
   text-transform: uppercase;
 }
