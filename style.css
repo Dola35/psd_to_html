@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Hammersmith+One&family=Playfair+Display&family=Roboto&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Hammersmith+One&family=Playfair+Display:wght@400;700&family=Roboto:wght@400;700&display=swap");
 
 .logo {
   display: flex;
@@ -61,6 +61,7 @@ footer {
   align-items: center;
   justify-content: center;
   flex-direction: column;
+  font-weight: bold;
 }
 
 #Watch-our-Story {
@@ -69,12 +70,18 @@ footer {
 }
 
 h2.Expertise-title {
+  font-family: "Playfair Display", Helvetica, sans-serif;
+  font-size: 1.5em;
+  color: black;
   text-align: center;
   text-transform: uppercase;
 }
 
 p.Expertise-title {
   text-align: center;
+  font-family: "Playfair Display", Helvetica, sans-serif;
+  font-size: 1em;
+  color: grey;
 }
 
 .card-container {
@@ -94,6 +101,7 @@ p.Expertise-title {
 h3.expertise-card {
   text-align: center;
   text-transform: uppercase;
+  font-weight: bold;
 }
 
 p.expertise-card {
@@ -103,11 +111,6 @@ p.expertise-card {
 hr {
   color: lightgray;
 }
-
-/*.xborder-card {
-  border-left: 1px solid lightgray;
-  border-right: 1px solid lightgray;
-}*/
 
 .vl {
   border-left: 1px solid lightgray;
