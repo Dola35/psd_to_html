@@ -42,16 +42,9 @@ span {
 }
 .header {
   background-image: url(./assets/bgk-header.png);
-  /*height: 100vh;*/
+  height: 75vh;
   background-size: cover;
   background-repeat: no-repeat;
-  size: 100%;
-
-  background-image: url(./assets/bgk-header.png);
-  height: 100vh;
-  background-size: cover;
-  background-repeat: no-repeat;
-  size: 100%;
 }
 
 body,
@@ -70,6 +63,16 @@ footer {
   flex-direction: column;
 }
 
-p.Watch-our-Story {
+#Watch-our-Story {
+  color: white;
   text-transform: uppercase;
+}
+
+h2.Expertise-title {
+  text-align: center;
+  text-transform: uppercase;
+}
+
+p.Expertise-title {
+  text-align: center;
 }
