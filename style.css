@@ -1,42 +1,37 @@
-@import url('https://fonts.googleapis.com/css2?family=Hammersmith+One&family=Playfair+Display&family=Roboto&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Hammersmith+One&family=Playfair+Display&family=Roboto&display=swap");
 
-.logo { 
-    display: flex;
-    color: rgba(0, 255, 255, 0.697);
-
+.logo {
+  display: flex;
+  color: rgba(0, 255, 255, 0.697);
 }
-.logo img{
-height: 30px;
-padding-right: 5px;
-padding: 20px 5px;
-
+.logo img {
+  height: 30px;
+  padding-right: 5px;
+  padding: 20px 5px;
 }
-.nav-container{
-             display: flex;
-             justify-content: space-between;
-             padding: 10px 250px;
-             
+.nav-container {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px 250px;
 }
 li {
-display: inline-block;
-padding: 10px ;
-text-transform: uppercase;
-
+  display: inline-block;
+  padding: 10px;
+  text-transform: uppercase;
 }
 ul {
-list-style-type: none;
-
+  list-style-type: none;
 }
 a {
-list-style: none;
-text-decoration: none;
-color: aliceblue;
+  list-style: none;
+  text-decoration: none;
+  color: aliceblue;
 }
 .head-content {
-width: 50%;
-margin: 200px auto;
-text-align: center;
-color: aliceblue;
+  width: 50%;
+  margin: 200px auto;
+  text-align: center;
+  color: aliceblue;
 }
 span {
   width: 35px;
@@ -46,19 +41,19 @@ span {
   display: inline-block;
 }
 .header {
-   background-image: url(./assets/bgk-header.png);
-   height: 100vh;
-   background-size: cover;
-   background-repeat:no-repeat;
-   size: 100%;
+  background-image: url(./assets/bgk-header.png);
+  height: 75vh;
+  background-size: cover;*/
+  background-repeat: no-repeat;
 }
 
-body, footer {
+body,
+footer {
   font-family: Roboto, Helvetica;
 }
 
 .Watch-our-Story {
-  Display:flex;
+  display: flex;
   background-image: url(./assets/bgk-middle.png);
   height: 50vh;
   background-size: cover;
@@ -68,8 +63,16 @@ body, footer {
   flex-direction: column;
 }
 
-p.Watch-our-Story {
+#Watch-our-Story {
+  color: white;
   text-transform: uppercase;
-  /*text-align: flex-end;
-  justify-content: flex-start;*/
 }
+
+ h2.Expertise-title {
+  text-align: center;
+  text-transform: uppercase; 
+ }
+
+ p.Expertise-title {
+  text-align: center; 
+ }
