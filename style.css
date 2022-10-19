@@ -41,15 +41,28 @@ a {
   font-family: "Hammersmith One";
   text-transform: uppercase;
 }
-#Learn-more {
-  color: rgba(0, 255, 255, 0.697);
+
+a.Learn-more {
+  align-content: center;
 }
+
+p.Learn {
+  width: 20%;
+  color: rgba(0, 255, 255, 0.697);
+  margin-left: 5;
+  padding: 10px;
+  border-style: solid;
+}
+
 span {
-  width: 35px;
+  width: 10%;
   height: 3px;
-  background-color: rgba(0, 255, 255, 0.418);
   display: block;
   display: inline-block;
+}
+span.grey-span {
+  background-color: grey;
+  color: blueviolet;
 }
 .header {
   background-image: url(./assets/bgk-header.png);
