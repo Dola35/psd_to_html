@@ -76,3 +76,48 @@ h2.Expertise-title {
 p.Expertise-title {
   text-align: center;
 }
+
+.card-container {
+  margin: 0 10% 0 10%;
+  display: inline-flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  flex-basis: content;
+}
+
+.expertise-card {
+  margin: 3% 5%;
+  text-align: center;
+}
+
+h3.expertise-card {
+  text-align: center;
+  text-transform: uppercase;
+}
+
+p.expertise-card {
+  color: grey;
+}
+
+hr {
+  color: lightgray;
+}
+
+/*.xborder-card {
+  border-left: 1px solid lightgray;
+  border-right: 1px solid lightgray;
+}*/
+
+.vl {
+  border-left: 1px solid lightgray;
+  height: 200px;
+}
+
+.vl1 {
+  align-self: flex-end;
+}
+
+.vl2 {
+  align-self: flex-start;
+}
