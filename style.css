@@ -99,7 +99,9 @@ footer {
 }
 
 h2.Expertise-title,
-#team-section > h2 {
+#team-section > h2,
+#partners-half-section > h2,
+#form-half-section > h2 {
   font-family: "Playfair Display", Helvetica, sans-serif;
   font-size: 1.5em;
   text-align: center;
@@ -215,6 +217,10 @@ hr {
   font-size: 0.8em;
 }
 
+#cta-join {
+  font-family: Roboto;
+}
+
 button {
   text-align: center;
   color: rgba(0, 255, 255, 0.697);
@@ -282,3 +288,57 @@ hr {
 .vl2 {
   align-self: flex-start;
 }
+
+/* FORM AND PARTNER STYLE START */
+
+#form-and-partners {
+  width: 70%;
+  margin: 3em auto;
+  background-color: white;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-areas: " form customers";
+  justify-content: center;
+  gap: 5%;
+}
+
+#form-half-section {
+  grid-area: "form";
+}
+
+#partners-half-section {
+  grid-area: "customers";
+}
+
+#clients-overview {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  column-gap: 5%;
+  min-width: 80%;
+}
+
+#clients-overview img {
+  margin: 1em 0;
+}
+
+#partners-half-section > h2,
+#form-half-section > h2 {
+  text-align: left;
+}
+
+input {
+  display: block;
+  height: 2em;
+  margin-bottom: 1em;
+}
+
+input,
+textarea {
+  width: 90%;
+}
+
+/* FORM AND PARTNER STYLE END */
+
+/* FOOTER STYLE START */
+
+/* FOOTER STYLE END */
