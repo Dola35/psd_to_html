@@ -70,7 +70,6 @@ span.grey-span {
   background-size: cover;
   background-repeat: no-repeat;
 }
-
 body,
 footer {
   font-family: Roboto, Helvetica;
@@ -92,6 +91,76 @@ footer {
   color: white;
   text-transform: uppercase;
 }
+
+#team-section {
+  background-image: url(./assets/bgk-2nd-middle.png);
+  height: 90vh;
+  background-size: cover;
+  background-repeat: no-repeat;
+  color: white;
+  padding: 5% 10%;
+}
+
+#team-section > h2 {
+  margin-top: 0;
+}
+
+#team-section > h2,
+#team-section > p {
+  text-align: center;
+}
+
+#team-section > hr {
+  width: 50px;
+  border: 0;
+  height: 1px;
+  background-color: #846f7a;
+}
+
+#main-profile-container {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 2rem;
+  margin: 3em auto 4em;
+}
+
+.profile-container {
+  display: flex;
+  flex-direction: column;
+  border: 0.5px white solid;
+  background-color: transparent;
+}
+
+.profile-container img {
+  width: 200px;
+}
+
+.name-employee {
+  font-weight: 900;
+  margin-bottom: 0;
+}
+
+.job-title {
+  font-weight: 300;
+  margin-top: 0.5em;
+}
+
+.name-employee,
+.job-title {
+  text-align: center;
+  font-size: 0.8em;
+}
+
+#team-section button {
+  text-align: center;
+  color: rgba(0, 255, 255, 0.697);
+  border: 1px rgba(0, 255, 255, 0.697) solid;
+  padding: 0.5em;
+  background-color: transparent;
+  margin: 2rem auto;
+  display: block;
+  text-transform: uppercase;
 
 h2.Expertise-title {
   font-family: "Playfair Display", Helvetica, sans-serif;
