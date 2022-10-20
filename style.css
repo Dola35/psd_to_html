@@ -168,7 +168,7 @@ hr {
   margin-top: 0;
 }
 
-#team-section > p {
+#team-subtitle {
   text-align: center;
   font-family: "Playfair Display", Helvetica, sans-serif;
   font-size: 1em;
@@ -218,7 +218,8 @@ hr {
 }
 
 #cta-join {
-  font-family: Roboto;
+  text-align: center;
+  font-weight: 300;
 }
 
 button {
@@ -328,13 +329,14 @@ hr {
 
 input {
   display: block;
-  height: 2em;
+  height: 3em;
   margin-bottom: 1em;
 }
 
 input,
 textarea {
   width: 90%;
+  border: 1px solid #e0e0e0;
 }
 
 /* FORM AND PARTNER STYLE END */
