@@ -145,7 +145,9 @@ footer {
 }
 
 h2.Expertise-title,
-#team-section > h2 {
+#team-section > h2,
+#partners-half-section > h2,
+#form-half-section > h2 {
   font-family: "Playfair Display", Helvetica, sans-serif;
   font-size: 1.5em;
   text-align: center;
@@ -180,7 +182,6 @@ hr {
 
 #team-section {
   background-image: url(./assets/bgk-2nd-middle.png);
-  height: 45vh;
   background-size: cover;
   background-repeat: no-repeat;
   color: white;
@@ -191,14 +192,14 @@ hr {
   margin-top: 0;
 }
 
-#team-section > p {
+#team-subtitle {
   text-align: center;
   font-family: "Playfair Display", Helvetica, sans-serif;
   font-size: 1em;
 }
 
 #team-section > hr {
-  width: 50px;
+  width: 5%;
   border: 0;
   height: 1px;
   background-color: #846f7a;
@@ -217,10 +218,11 @@ hr {
   flex-direction: column;
   border: 0.5px white solid;
   background-color: transparent;
+  width: 20%;
 }
 
 .profile-container img {
-  width: 200px;
+  width: 100%;
 }
 
 .name-employee {
@@ -237,6 +239,11 @@ hr {
 .job-title {
   text-align: center;
   font-size: 0.8em;
+}
+
+#cta-join {
+  text-align: center;
+  font-weight: 300;
 }
 
 button {
@@ -302,3 +309,82 @@ hr {
 .vl2 {
   align-self: flex-start;
 }
+
+/* FORM AND PARTNER STYLE START */
+
+#form-and-partners {
+  width: 70%;
+  margin: 3em auto;
+  background-color: white;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-areas: " form customers";
+  justify-content: center;
+  gap: 5%;
+}
+
+#form-half-section {
+  grid-area: "form";
+}
+
+#partners-half-section {
+  grid-area: "customers";
+}
+
+#clients-overview {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  column-gap: 5%;
+  min-width: 80%;
+}
+
+#clients-overview img {
+  margin: 1em 0;
+}
+
+#partners-half-section > h2,
+#form-half-section > h2 {
+  text-align: left;
+}
+
+input {
+  display: block;
+  height: 3em;
+  margin-bottom: 1em;
+}
+
+input,
+textarea {
+  width: 90%;
+  border: 1px solid #e0e0e0;
+}
+
+input::placeholder,
+textarea::placeholder {
+  font-family: "Roboto", sans-serif;
+  color: #c1c0b9;
+  padding-left: 1.5em;
+}
+
+textarea::placeholder {
+  padding-top: 1em;
+}
+
+#form-and-partners button {
+  text-align: center;
+  color: #00c6c6;
+  border: 1px #00c6c6 solid;
+  padding: 0.75em 3em;
+  background-color: transparent;
+  margin: 1.5em auto 2em 0;
+  display: block;
+  text-transform: uppercase;
+  font-family: "Hammersmith One";
+  font-weight: 500;
+}
+
+/* FORM AND PARTNER STYLE END */
+
+/* FOOTER STYLE START */
+
+/* FOOTER STYLE END */
