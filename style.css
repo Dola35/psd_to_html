@@ -73,8 +73,9 @@ span.grey-span {
 
 .header {
   background-image: url(./assets/bgk-header.png);
-  background-size: block;
+  background-size: cover;
   background-repeat: no-repeat;
+  height: 100vh;
 }
 
 body,
@@ -99,11 +100,12 @@ footer {
 .Watch-our-Story {
   display: flex;
   background-image: url(./assets/bgk-middle.png);
-  background-size: block;
+  background-size: cover;
   background-repeat: no-repeat;
   align-items: center;
   justify-content: center;
   flex-direction: column;
+  height: 100vh; ;
 }
 
 .Watch-our-Story img {
@@ -239,8 +241,8 @@ hr {
 
 button {
   text-align: center;
-  color: rgba(0, 255, 255, 0.5);
-  border: 1px rgba(0, 255, 255, 0.5) solid;
+  color: #00c6c6;
+  border: 1px #00c6c6 solid; 
   padding: 0.75em 1.25em;
   background-color: transparent;
   margin: 2rem auto;
