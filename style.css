@@ -92,6 +92,61 @@ footer {
   text-transform: uppercase;
 }
 
+h2.Expertise-title {
+  font-family: "Playfair Display", Helvetica, sans-serif;
+  font-size: 1.5em;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+p.Expertise-title {
+  text-align: center;
+  font-family: "Playfair Display", Helvetica, sans-serif;
+  font-size: 1em;
+  color: grey;
+}
+
+.card-container {
+  margin: 0 10% 0 10%;
+  display: inline-flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  flex-basis: content;
+}
+
+.expertise-card {
+  margin: 3% 5%;
+  text-align: center;
+}
+
+h3.expertise-card {
+  text-align: center;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+p.expertise-card {
+  color: grey;
+}
+
+hr {
+  color: lightgray;
+}
+
+.vl {
+  border-left: 1px solid lightgray;
+  height: 200px;
+}
+
+.vl1 {
+  align-self: flex-end;
+}
+
+.vl2 {
+  align-self: flex-start;
+}
+
 #team-section {
   background-image: url(./assets/bgk-2nd-middle.png);
   height: 90vh;
@@ -161,58 +216,4 @@ footer {
   margin: 2rem auto;
   display: block;
   text-transform: uppercase;
-
-h2.Expertise-title {
-  font-family: "Playfair Display", Helvetica, sans-serif;
-  font-size: 1.5em;
-  text-align: center;
-  text-transform: uppercase;
-}
-
-p.Expertise-title {
-  text-align: center;
-  font-family: "Playfair Display", Helvetica, sans-serif;
-  font-size: 1em;
-  color: grey;
-}
-
-.card-container {
-  margin: 0 10% 0 10%;
-  display: inline-flex;
-  flex-direction: row;
-  align-items: center;
-  justify-content: center;
-  flex-basis: content;
-}
-
-.expertise-card {
-  margin: 3% 5%;
-  text-align: center;
-}
-
-h3.expertise-card {
-  text-align: center;
-  text-transform: uppercase;
-  font-weight: bold;
-}
-
-p.expertise-card {
-  color: grey;
-}
-
-hr {
-  color: lightgray;
-}
-
-.vl {
-  border-left: 1px solid lightgray;
-  height: 200px;
-}
-
-.vl1 {
-  align-self: flex-end;
-}
-
-.vl2 {
-  align-self: flex-start;
 }
