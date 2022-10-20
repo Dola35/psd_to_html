@@ -61,11 +61,12 @@ p.Learn {
 }
 
 span {
-  width: 10%;
-  height: 3px;
+  width: 5%;
+  height: 1px;
   display: block;
   display: inline-block;
 }
+
 span.grey-span {
   background-color: grey;
 }
@@ -154,7 +155,7 @@ hr {
 
 #team-section {
   background-image: url(./assets/bgk-2nd-middle.png);
-  height: 90vh;
+  height: 45vh;
   background-size: cover;
   background-repeat: no-repeat;
   color: white;
