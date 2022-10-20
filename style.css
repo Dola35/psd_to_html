@@ -3,10 +3,17 @@
 .logo {
   margin-top: -10px;
   display: flex;
+  flex-wrap: nowrap;
 }
 .logo img {
   display: flex;
   padding: 10px;
+}
+.tajam {
+  font-size: 2em;
+  font-family: Roboto;
+  font-weight: 100;
+  color: rgba(0, 255, 255, 0.697);
 }
 .nav-container {
   display: flex;
@@ -64,7 +71,7 @@ span.grey-span {
 }
 .header {
   background-image: url(./assets/bgk-header.png);
-  height: 75vh;
+  height: 60vh;
   background-size: cover;
   background-repeat: no-repeat;
 }
