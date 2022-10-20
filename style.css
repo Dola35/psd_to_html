@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Hammersmith+One&family=Playfair+Display&family=Roboto&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Hammersmith+One&family=Playfair+Display:wght@400;700&family=Roboto:wght@100;300;400;700&display=swap");
 
 .logo {
   display: flex;
@@ -21,6 +21,7 @@ li {
 }
 ul {
   list-style-type: none;
+  font-weight: bold;
 }
 a {
   list-style: none;
@@ -33,27 +34,42 @@ a {
   text-align: center;
   color: aliceblue;
 }
+.Playfair {
+  font-family: "Playfair Display";
+}
+.HammersmithOne {
+  font-family: "Hammersmith One";
+  text-transform: uppercase;
+}
+
+a.Learn-more {
+  align-content: center;
+}
+
+p.Learn {
+  width: 20%;
+  color: rgba(0, 255, 255, 0.697);
+  margin-left: 5;
+  padding: 10px;
+  border-style: solid;
+}
+
 span {
-  width: 35px;
+  width: 10%;
   height: 3px;
-  background-color: rgba(0, 255, 255, 0.418);
   display: block;
   display: inline-block;
 }
+span.grey-span {
+  background-color: grey;
+  color: blueviolet;
+}
 .header {
   background-image: url(./assets/bgk-header.png);
-  /*height: 100vh;*/
+  height: 75vh;
   background-size: cover;
   background-repeat: no-repeat;
-  size: 100%;
-
-  background-image: url(./assets/bgk-header.png);
-  height: 100vh;
-  background-size: cover;
-  background-repeat: no-repeat;
-  size: 100%;
 }
-
 body,
 footer {
   font-family: Roboto, Helvetica;
@@ -68,12 +84,12 @@ footer {
   align-items: center;
   justify-content: center;
   flex-direction: column;
+  font-weight: bold;
 }
 
-p.Watch-our-Story {
+#Watch-our-Story {
+  color: white;
   text-transform: uppercase;
-  /*text-align: flex-end;
-  justify-content: flex-start;*/
 }
 
 #team-section {
@@ -145,4 +161,58 @@ p.Watch-our-Story {
   margin: 2rem auto;
   display: block;
   text-transform: uppercase;
+
+h2.Expertise-title {
+  font-family: "Playfair Display", Helvetica, sans-serif;
+  font-size: 1.5em;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+p.Expertise-title {
+  text-align: center;
+  font-family: "Playfair Display", Helvetica, sans-serif;
+  font-size: 1em;
+  color: grey;
+}
+
+.card-container {
+  margin: 0 10% 0 10%;
+  display: inline-flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  flex-basis: content;
+}
+
+.expertise-card {
+  margin: 3% 5%;
+  text-align: center;
+}
+
+h3.expertise-card {
+  text-align: center;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+p.expertise-card {
+  color: grey;
+}
+
+hr {
+  color: lightgray;
+}
+
+.vl {
+  border-left: 1px solid lightgray;
+  height: 200px;
+}
+
+.vl1 {
+  align-self: flex-end;
+}
+
+.vl2 {
+  align-self: flex-start;
 }
