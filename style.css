@@ -90,7 +90,8 @@ footer {
   text-transform: uppercase;
 }
 
-h2.Expertise-title {
+h2.Expertise-title,
+#team-section > h2 {
   font-family: "Playfair Display", Helvetica, sans-serif;
   font-size: 1.5em;
   text-align: center;
@@ -158,9 +159,10 @@ hr {
   margin-top: 0;
 }
 
-#team-section > h2,
 #team-section > p {
   text-align: center;
+  font-family: "Playfair Display", Helvetica, sans-serif;
+  font-size: 1em;
 }
 
 #team-section > hr {
