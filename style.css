@@ -105,7 +105,7 @@ footer {
   align-items: center;
   justify-content: center;
   flex-direction: column;
-  height: 100vh; ;
+  height: 100vh; 
 }
 
 .Watch-our-Story img {
@@ -279,7 +279,7 @@ p.Expertise-title {
 }
 
 .expertise-card {
-  margin: 3% 5%;
+ 
   text-align: center;
 }
 
@@ -386,5 +386,76 @@ textarea::placeholder {
 /* FORM AND PARTNER STYLE END */
 
 /* FOOTER STYLE START */
+footer{
+  background-image: url(/assets/bgk-footer.png);
+  height: 400px;
+  line-height: 25px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.footer-container{
+  display: flex;
+  width: 70%;
+  margin: 20px auto;
+  color: white;
+  padding: 30px;
+}
+.footer-item{
+  width: 33.3%;
+  padding: 20px;
+}
+.flex{
+  display: flex;
+  align-items: center;
+}
+.padding-bottom{
+  padding-bottom: 50px;
+}
+.padding-right{
+  padding-right: 5px;
+}
+.copy{
+  display:flex;
+  justify-content: flex-end; 
+  margin-top: -2px;
+}
+.pad-r{
+  padding-right: 20px;
+}
+.gps{
+  padding-right: 10px;
+  padding-bottom: 50px;
+}
+.tel{
+  padding-right: 10px;
+}
+.fot-input{
+  background: transparent;
+  padding-right: 10px;
+  width: 200px;
+  outline: none;
+}
+.fot-button{
+  background: transparent;
+  height: 45px;
+  width: 70px;
+  margin-bottom: 45px;
+  margin-left: 10px;
+  background: rgb(255, 255, 255);
+  opacity: .6;
+  cursor: pointer;
+}
+.fot-button img{
+  z-index: 3;
+}
 
+.p-footer {
+  font-size: 13px;
+  width: 90%;
+  color: rgba(240, 255, 255, 0.81);
+}
+.font-s{
+  font-size: 15px;
+}
 /* FOOTER STYLE END */
