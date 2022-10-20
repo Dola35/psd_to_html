@@ -4,6 +4,7 @@
   margin-top: -10px;
   display: flex;
   flex-wrap: nowrap;
+  color: rgba(0, 255, 255, 0.697);
 }
 .logo img {
   display: flex;
@@ -61,34 +62,24 @@ p.Learn {
 }
 
 span {
-  width: 5%;
+  width: 7%;
   height: 1px;
-  display: block;
   display: inline-block;
+  background-color: rgba(0, 255, 255, 0.697);
 }
-
-.header {
-  background-image: url(./assets/bgk-header.png);
-  background-size: contain;
-  background-repeat: no-repeat;
-  height: 100vh;
-}
-
-
-
-
 span.grey-span {
   background-color: grey;
 }
+
 .header {
   background-image: url(./assets/bgk-header.png);
-  height: 60vh;
   background-size: cover;
   background-repeat: no-repeat;
+  height: 60vh;
 }
+
 body,
 footer {
-
   font-family: Roboto, Helvetica;
   padding: 0;
   margin: 0;
@@ -98,6 +89,13 @@ footer {
 .our-story {
   display: flex;
   height: 300px;
+  justify-content: center;
+  margin-top: 100px;
+  margin-bottom: 150px;
+}
+.our-story div {
+  width: 40%;
+  padding-left: 100px;
 }
 .Watch-our-Story {
   display: flex;
@@ -106,18 +104,10 @@ footer {
   background-size: cover;
   background-repeat: no-repeat;
   align-items: center;
-
   justify-content: center;
-  margin-top: -90px;
+  flex-direction: column;
 }
-.our-story div {
-  width: 40%;
-  padding-left: 100px;
-}
-.our-story img {
-  padding-right: 20px;
-}
-.Watch-our-Story {
+/*.Watch-our-Story {
   background-image: url(./assets/bgk-middle.png);
   display: flex;
   height: 700px;
@@ -126,12 +116,10 @@ footer {
   background-size: contain;
   flex-direction: column;
   background-repeat: no-repeat;
- 
-}
+}*/
 .Watch-our-Story img {
   width: 100px;
   height: 100px;
-  padding-bottom: 20px;
 }
 .Watch-our-Story p {
   color: aliceblue;
@@ -141,6 +129,8 @@ footer {
   align-items: center;
   flex-direction: column;
   font-weight: bold;
+  margin-top: 50px;
+  margin-bottom: 150px;
 }
 
 .expertise-head {
@@ -150,10 +140,6 @@ footer {
   display: grid;
   grid-template-columns: 300px 300px 300px;
   margin-top: 30px;
-}
-.expertise-card {
-  padding: 20px;
-  text-align: center;
 }
 .border-left {
   border-left: 1px solid rgb(155, 145, 145);
@@ -182,45 +168,23 @@ p.Expertise-title {
   color: grey;
 }
 
-.card-container {
-  margin: 0 10% 0 10%;
-  display: inline-flex;
-  flex-direction: row;
-  align-items: center;
-  justify-content: center;
-  flex-basis: content;
-}
-
 .expertise-card {
-  margin: 3% 5%;
+  padding: 20px;
   text-align: center;
 }
 
-h3.expertise-card {
+h3.expert-text {
   text-align: center;
   text-transform: uppercase;
   font-weight: bold;
 }
 
-p.expertise-card {
+p.expert-p {
   color: grey;
 }
 
 hr {
   color: lightgray;
-}
-
-.vl {
-  border-left: 1px solid lightgray;
-  height: 200px;
-}
-
-.vl1 {
-  align-self: flex-end;
-}
-
-.vl2 {
-  align-self: flex-start;
 }
 
 #team-section {
@@ -286,8 +250,8 @@ hr {
 
 button {
   text-align: center;
-  color: rgba(0, 255, 255, 0.697);
-  border: 1px rgba(0, 255, 255, 0.697) solid;
+  color: rgba(0, 255, 255, 0.5);
+  border: 1px rgba(0, 255, 255, 0.5) solid;
   padding: 0.75em 1.25em;
   background-color: transparent;
   margin: 2rem auto;
@@ -295,6 +259,11 @@ button {
   text-transform: uppercase;
   font-family: "Hammersmith One";
   font-weight: 500;
+}
+
+button.buttontwo {
+  display: block;
+  margin-left: 0;
 }
 
 h2.Expertise-title {
@@ -309,15 +278,6 @@ p.Expertise-title {
   font-family: "Playfair Display", Helvetica, sans-serif;
   font-size: 1em;
   color: grey;
-}
-
-.card-container {
-  margin: 0 10% 0 10%;
-  display: inline-flex;
-  flex-direction: row;
-  align-items: center;
-  justify-content: center;
-  flex-basis: content;
 }
 
 .expertise-card {
@@ -351,4 +311,3 @@ hr {
 .vl2 {
   align-self: flex-start;
 }
-
