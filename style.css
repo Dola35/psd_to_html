@@ -156,7 +156,6 @@ hr {
 
 #team-section {
   background-image: url(./assets/bgk-2nd-middle.png);
-  height: 45vh;
   background-size: cover;
   background-repeat: no-repeat;
   color: white;
@@ -174,7 +173,7 @@ hr {
 }
 
 #team-section > hr {
-  width: 50px;
+  width: 5%;
   border: 0;
   height: 1px;
   background-color: #846f7a;
@@ -193,10 +192,11 @@ hr {
   flex-direction: column;
   border: 0.5px white solid;
   background-color: transparent;
+  width: 20%;
 }
 
 .profile-container img {
-  width: 200px;
+  width: 100%;
 }
 
 .name-employee {
