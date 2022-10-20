@@ -73,9 +73,8 @@ span.grey-span {
 
 .header {
   background-image: url(./assets/bgk-header.png);
-  background-size: cover;
+  background-size: block;
   background-repeat: no-repeat;
-  height: 60vh;
 }
 
 body,
@@ -100,23 +99,13 @@ footer {
 .Watch-our-Story {
   display: flex;
   background-image: url(./assets/bgk-middle.png);
-  height: 50vh;
-  background-size: cover;
+  background-size: block;
   background-repeat: no-repeat;
   align-items: center;
   justify-content: center;
   flex-direction: column;
 }
-/*.Watch-our-Story {
-  background-image: url(./assets/bgk-middle.png);
-  display: flex;
-  height: 700px;
-  justify-content: center;
-  align-items: center;
-  background-size: contain;
-  flex-direction: column;
-  background-repeat: no-repeat;
-}*/
+
 .Watch-our-Story img {
   width: 100px;
   height: 100px;
