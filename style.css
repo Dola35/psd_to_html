@@ -1,13 +1,12 @@
 @import url("https://fonts.googleapis.com/css2?family=Hammersmith+One&family=Playfair+Display:wght@400;700&family=Roboto:wght@100;300;400;700&display=swap");
 
 .logo {
+  margin-top: -10px;
   display: flex;
-  color: rgba(0, 255, 255, 0.697);
 }
 .logo img {
-  height: 30px;
-  padding-right: 5px;
-  padding: 20px 5px;
+  display: flex;
+  padding: 10px;
 }
 .nav-container {
   display: flex;
@@ -62,7 +61,6 @@ span {
 }
 span.grey-span {
   background-color: grey;
-  color: blueviolet;
 }
 .header {
   background-image: url(./assets/bgk-header.png);
