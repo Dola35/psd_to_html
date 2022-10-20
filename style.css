@@ -3,10 +3,17 @@
 .logo {
   margin-top: -10px;
   display: flex;
+  flex-wrap: nowrap;
 }
 .logo img {
   display: flex;
   padding: 10px;
+}
+.tajam {
+  font-size: 2em;
+  font-family: Roboto;
+  font-weight: 100;
+  color: rgba(0, 255, 255, 0.697);
 }
 .nav-container {
   display: flex;
@@ -54,17 +61,18 @@ p.Learn {
 }
 
 span {
-  width: 10%;
-  height: 3px;
+  width: 5%;
+  height: 1px;
   display: block;
   display: inline-block;
 }
+
 span.grey-span {
   background-color: grey;
 }
 .header {
   background-image: url(./assets/bgk-header.png);
-  height: 75vh;
+  height: 60vh;
   background-size: cover;
   background-repeat: no-repeat;
 }
@@ -148,7 +156,7 @@ hr {
 
 #team-section {
   background-image: url(./assets/bgk-2nd-middle.png);
-  height: 90vh;
+  height: 45vh;
   background-size: cover;
   background-repeat: no-repeat;
   color: white;
