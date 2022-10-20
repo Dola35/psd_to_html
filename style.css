@@ -224,8 +224,8 @@ hr {
 
 button {
   text-align: center;
-  color: rgba(0, 255, 255, 0.697);
-  border: 1px rgba(0, 255, 255, 0.697) solid;
+  color: rgba(0, 255, 255, 0.5);
+  border: 1px rgba(0, 255, 255, 0.5) solid;
   padding: 0.75em 1.25em;
   background-color: transparent;
   margin: 2rem auto;
@@ -337,6 +337,30 @@ input,
 textarea {
   width: 90%;
   border: 1px solid #e0e0e0;
+}
+
+input::placeholder,
+textarea::placeholder {
+  font-family: "Roboto", sans-serif;
+  color: #c1c0b9;
+  padding-left: 1.5em;
+}
+
+textarea::placeholder {
+  padding-top: 1em;
+}
+
+#form-and-partners button {
+  text-align: center;
+  color: #00c6c6;
+  border: 1px #00c6c6 solid;
+  padding: 0.75em 3em;
+  background-color: transparent;
+  margin: 0 2rem auto;
+  display: block;
+  text-transform: uppercase;
+  font-family: "Hammersmith One";
+  font-weight: 500;
 }
 
 /* FORM AND PARTNER STYLE END */
