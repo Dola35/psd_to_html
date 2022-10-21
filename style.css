@@ -120,7 +120,7 @@ footer {
   align-items: center;
   justify-content: center;
   flex-direction: column;
-
+  font-weight: bold;
   height: 600px;
 }
 
