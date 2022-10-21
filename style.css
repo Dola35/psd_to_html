@@ -67,8 +67,10 @@ span {
   display: inline-block;
   background-color: rgba(0, 255, 255, 0.697);
 }
+
 span.grey-span {
   background-color: grey;
+  width: 3%;
 }
 
 .header {
@@ -108,8 +110,7 @@ footer {
   justify-content: center;
   flex-direction: column;
 
-  height: 600px; 
-
+  height: 600px;
 }
 
 .Watch-our-Story img {
@@ -209,7 +210,7 @@ hr {
 }
 
 #team-section > hr {
-  width: 5%;
+  width: 3%;
   border: 0;
   height: 1px;
   background-color: #846f7a;
@@ -468,15 +469,15 @@ footer {
   font-size: 15px;
 }
 
-header ul li a{
-  border-radius:20px;
-  padding: 6px ;
+header ul li a {
+  border-radius: 20px;
+  padding: 6px;
 }
 
-header ul li a:hover, .active{ background:white;
+header ul li a:hover,
+.active {
+  background: white;
   color: #00c6c6;
-
 }
-
 
 /* FOOTER STYLE END */
