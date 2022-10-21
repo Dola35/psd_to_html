@@ -81,6 +81,8 @@ span.grey-span {
 body,
 footer {
   font-family: Roboto, Helvetica;
+  font-weight: 300;
+  color: #393e46;
   padding: 0;
   margin: 0;
   box-sizing: border-box;
@@ -105,7 +107,9 @@ footer {
   align-items: center;
   justify-content: center;
   flex-direction: column;
+
   height: 600px; 
+
 }
 
 .Watch-our-Story img {
@@ -119,7 +123,6 @@ footer {
   display: flex;
   align-items: center;
   flex-direction: column;
-  font-weight: bold;
   margin-top: 50px;
   margin-bottom: 150px;
 }
@@ -147,11 +150,18 @@ footer {
 h2.Expertise-title,
 #team-section > h2,
 #partners-half-section > h2,
-#form-half-section > h2 {
+#form-half-section > h2,
+.our-story h2 {
   font-family: "Playfair Display", Helvetica, sans-serif;
   font-size: 1.5em;
-  text-align: center;
   text-transform: uppercase;
+}
+
+h2.Expertise-title,
+#team-section > h2,
+#partners-half-section > h2,
+#form-half-section > h2 {
+  text-align: center;
 }
 
 p.Expertise-title {
@@ -249,7 +259,7 @@ hr {
 button {
   text-align: center;
   color: #00c6c6;
-  border: 1px #00c6c6 solid; 
+  border: 1px #00c6c6 solid;
   padding: 0.75em 1.25em;
   background-color: transparent;
   margin: 2rem auto;
@@ -279,7 +289,6 @@ p.Expertise-title {
 }
 
 .expertise-card {
- 
   text-align: center;
 }
 
@@ -386,7 +395,7 @@ textarea::placeholder {
 /* FORM AND PARTNER STYLE END */
 
 /* FOOTER STYLE START */
-footer{
+footer {
   background-image: url(/assets/bgk-footer.png);
   height: 400px;
   line-height: 25px;
@@ -394,59 +403,59 @@ footer{
   background-repeat: no-repeat;
   background-position: center;
 }
-.footer-container{
+.footer-container {
   display: flex;
   width: 70%;
   margin: 20px auto;
   color: white;
   padding: 30px;
 }
-.footer-item{
+.footer-item {
   width: 33.3%;
   padding: 20px;
 }
-.flex{
+.flex {
   display: flex;
   align-items: center;
 }
-.padding-bottom{
+.padding-bottom {
   padding-bottom: 50px;
 }
-.padding-right{
+.padding-right {
   padding-right: 5px;
 }
-.copy{
-  display:flex;
-  justify-content: flex-end; 
+.copy {
+  display: flex;
+  justify-content: flex-end;
   margin-top: -2px;
 }
-.pad-r{
+.pad-r {
   padding-right: 20px;
 }
-.gps{
+.gps {
   padding-right: 10px;
   padding-bottom: 50px;
 }
-.tel{
+.tel {
   padding-right: 10px;
 }
-.fot-input{
+.fot-input {
   background: transparent;
   padding-right: 10px;
   width: 200px;
   outline: none;
 }
-.fot-button{
+.fot-button {
   background: transparent;
   height: 45px;
   width: 70px;
   margin-bottom: 45px;
   margin-left: 10px;
   background: rgb(255, 255, 255);
-  opacity: .6;
+  opacity: 0.6;
   cursor: pointer;
 }
-.fot-button img{
+.fot-button img {
   z-index: 3;
 }
 
@@ -455,7 +464,7 @@ footer{
   width: 90%;
   color: rgba(240, 255, 255, 0.81);
 }
-.font-s{
+.font-s {
   font-size: 15px;
 }
 
