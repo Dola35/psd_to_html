@@ -421,7 +421,6 @@ footer {
   width: 70%;
   margin: 20px auto;
   color: white;
-  
 }
 .footer-item {
   width: 30%;
@@ -431,7 +430,6 @@ footer {
 .flex {
   display: flex;
   align-items: center;
-  
 }
 .padding-bottom {
   padding-bottom: 50px;
@@ -442,7 +440,7 @@ footer {
 .copy {
   display: flex;
   justify-content: flex-end;
-  margin-top: -2px;
+  margin-top: 25px;
 }
 .pad-r {
   padding-right: 20px;
@@ -479,7 +477,7 @@ footer {
   font-size: 13px;
   width: 90%;
   color: rgba(240, 255, 255, 0.81);
-  text-transform:capitalize;
+  text-transform: capitalize;
 }
 .font-s {
   font-size: 15px;
