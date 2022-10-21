@@ -80,6 +80,17 @@ span.grey-span {
   height: 700px;
 }
 
+h1 {
+  font-size: 1.8em;
+  margin-bottom: 0.5em;
+}
+
+.header p,
+.our-story p,
+.expertise p {
+  line-height: 1.5em;
+}
+
 body,
 footer {
   font-family: Roboto, Helvetica;
