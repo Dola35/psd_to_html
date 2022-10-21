@@ -94,10 +94,11 @@ footer {
   justify-content: center;
   margin-top: 100px;
   margin-bottom: 150px;
+  padding-left: 200px;
 }
 .our-story div {
   width: 40%;
-  padding-left: 100px;
+  padding-left: 50px;
 }
 .Watch-our-Story {
   display: flex;
@@ -397,7 +398,7 @@ textarea::placeholder {
 /* FOOTER STYLE START */
 footer {
   background-image: url(/assets/bgk-footer.png);
-  height: 400px;
+  height: 500px;
   line-height: 25px;
   background-size: cover;
   background-repeat: no-repeat;
@@ -408,11 +409,12 @@ footer {
   width: 70%;
   margin: 20px auto;
   color: white;
-  padding: 30px;
+  
 }
 .footer-item {
-  width: 33.3%;
+  width: 30%;
   padding: 20px;
+  padding-top: 60px;
 }
 .flex {
   display: flex;
