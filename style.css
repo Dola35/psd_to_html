@@ -81,6 +81,8 @@ span.grey-span {
 body,
 footer {
   font-family: Roboto, Helvetica;
+  font-weight: 300;
+  color: #393e46;
   padding: 0;
   margin: 0;
   box-sizing: border-box;
@@ -146,11 +148,18 @@ footer {
 h2.Expertise-title,
 #team-section > h2,
 #partners-half-section > h2,
-#form-half-section > h2 {
+#form-half-section > h2,
+.our-story h2 {
   font-family: "Playfair Display", Helvetica, sans-serif;
   font-size: 1.5em;
-  text-align: center;
   text-transform: uppercase;
+}
+
+h2.Expertise-title,
+#team-section > h2,
+#partners-half-section > h2,
+#form-half-section > h2 {
+  text-align: center;
 }
 
 p.Expertise-title {
