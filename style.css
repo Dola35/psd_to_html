@@ -75,7 +75,7 @@ span.grey-span {
   background-image: url(./assets/bgk-header.png);
   background-size: cover;
   background-repeat: no-repeat;
-  height: 100vh;
+  height: 700px;
 }
 
 body,
@@ -105,7 +105,7 @@ footer {
   align-items: center;
   justify-content: center;
   flex-direction: column;
-  height: 100vh; 
+  height: 600px; 
 }
 
 .Watch-our-Story img {
@@ -458,4 +458,16 @@ footer{
 .font-s{
   font-size: 15px;
 }
+
+header ul li a{
+  border-radius:20px;
+  padding: 6px ;
+}
+
+header ul li a:hover, .active{ background:white;
+  color: #00c6c6;
+
+}
+
+
 /* FOOTER STYLE END */
